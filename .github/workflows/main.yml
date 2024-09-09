@@ -15,3 +15,4 @@ jobs:
           node-version: '20'  # Specify Node.js 20
       - run: npm install  # Assuming your project uses npm
       - run: npm run build  # Replace with your build command
+      - run: npm run build --verbose
